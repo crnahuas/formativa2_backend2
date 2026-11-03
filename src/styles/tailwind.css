@@ -1,0 +1,15 @@
+/* Las utilidades de Tailwind complementan los CSS Modules.
+   Se omite Preflight para conservar los estilos base existentes. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "./global.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+@source "../";
+
+@theme {
+  --color-abasto: var(--teal);
+  --color-abasto-dark: var(--evergreen);
+  --color-sage: var(--linen);
+  --color-ink: var(--ink);
+  --color-danger: var(--danger);
+}
