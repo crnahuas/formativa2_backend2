@@ -81,3 +81,7 @@ npm run preview
 Las pruebas utilizan Vitest y Testing Library para comprobar navegación, registro de artículos, validación, actualización de la tabla y persistencia de los datos.
 
 `npm run build` genera la versión de producción en `dist/`. `npm run preview` permite revisarla localmente. Al desplegar la aplicación, el servidor debe redirigir las rutas a `index.html` para permitir el acceso directo a cada página.
+
+## Capturas de funcionamiento
+
+La carpeta [`evidencias/capturas/`](evidencias/capturas/) contiene siete capturas reales de las páginas públicas, la validación del formulario, el registro de un artículo y el inventario con datos de ejemplo. Incluye la carpeta `evidencias/` junto al código fuente en la entrega.
